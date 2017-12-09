@@ -66,6 +66,19 @@ public class Sorts {
             }
         }
     }
+    public static void bubbleSort(int[] ary /*p*/ ){
+        if (ary.length > 1){
+            while (!isSorted(ary)){
+                for (int i = 0; i < ary.length - 1; i++){
+                    if (ary[i] > ary[i+1]){
+                        int temp = ary[i];
+                        ary[i] = ary[i+1];
+                        ary[i+1] = temp;
+                    }
+                }
+            }
+        }
+    }
     /*
     //Just seeing if it works:
     public static void bucketSort(int[] ary){
@@ -96,13 +109,18 @@ public class Sorts {
         for (int i = 0; i < randish.length; i++) {
             randish[i] = (int) (Math.random() * 100);
         }
+	int[] burkinafaso = new int[15];
+	for (int i = 0; i < burkinafaso.length; i++){
+	    burkinafaso[i] = (int)(Math.random()*100);
+	}
 
-        int a = 10, b = 20;
-        // swap(a,b);
 
-        System.out.println(Arrays.toString(randish));
+	//   System.out.println(Arrays.toString(randish));
        // selectionSort(randish);
         insertionSort(randish);
-        System.out.println(Arrays.toString(randish));
+	// System.out.println(Arrays.toString(randish));
+	System.out.println(Arrays.toString(burkinafaso));
+	bubbleSort(burkinafaso);
+	System.out.println(Arrays.toString(burkinafaso));
     }
 }
