@@ -1,5 +1,5 @@
 
-public class Barcode {
+public class Barcode implements Comparable<Barcode> {
     //The *nuclear* codes:
     private String[] codes = {"||:::",
                 ":::||",
