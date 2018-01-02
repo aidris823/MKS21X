@@ -25,7 +25,7 @@ public class ReversedCharSequence implements CharSequence {
     public String toString(){
         return revChar;
     }
-
+    /*
     public static void main(String[] arguments) {
 	ReversedCharSequence fmercury = new ReversedCharSequence("BURKINAFASO");
 	System.out.println(fmercury);
@@ -35,6 +35,7 @@ public class ReversedCharSequence implements CharSequence {
 	System.out.println(fmercury.subSequence(0, 4));
 	System.out.println(fmercury.subSequence(1, 6));
     }
+    */
 }
 
 
