@@ -151,4 +151,7 @@ public class SuperArray{
         data[size] = null;
         return (size != -1);
     }
+    public static void main(String[] arguments){
+        System.out.println("SuperArray main method!");
+    }
 }
