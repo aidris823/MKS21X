@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class SuperArray implements Iterable<String>{
+public class SuperArray{
     private String[] data = new String[10];
     private int size = 0;
 
@@ -151,10 +151,6 @@ public class SuperArray implements Iterable<String>{
         }
         data[size] = null;
         return (size != -1);
-    }
-    public Iterator<String> iterator(){
-        //Loops through entire SuperArray:
-        return new SuperArrayIterator(0,data.length,this);
     }
 }
 
