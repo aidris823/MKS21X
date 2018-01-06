@@ -66,4 +66,7 @@ public class OrderedSuperArray extends SuperArray {
     public int indexOfBinary(String x){
         return findIndexBinary(x);
     }
+    public static void main(String[] arguments){
+        System.out.println("OrderedSuperArray main!");
+    }
 }
