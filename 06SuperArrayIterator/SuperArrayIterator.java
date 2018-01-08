@@ -31,6 +31,8 @@ public class SuperArrayIterator implements Iterator{
     public void remove(){
         throw new UnsupportedOperationException();
     }
+    public static void main(String[] arguments){
+    }
 }
 
 
