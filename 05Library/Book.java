@@ -47,7 +47,9 @@ public class Book{
     String ans = "" + title + "," + author + "," + ISBN;
     return ans;
   }
-    
+  public static void main(String[] arguments){
+   System.out.println("Book");
+  }
  }
  
   
